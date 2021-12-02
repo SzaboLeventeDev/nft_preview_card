@@ -19,6 +19,7 @@ main{
     border-radius: 20px;
     padding: 20px;
     background-color: hsl(216, 50%, 16%);
+    box-shadow: 10px 20px hsl(214, 52%, 19%);
 }
 hr{
     width: 100%;
@@ -104,7 +105,13 @@ p{
 .name{
     color: white;
 }
-
+/* ---------------Attribution------ */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 40px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
 /* @media screen and (width < 1040px) {
     .body{
         width: 100%;
